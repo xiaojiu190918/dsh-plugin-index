@@ -1,0 +1,39 @@
+{
+  "$comment": "索引级分类表。id 稳定不可改；标题必须含 en（format 1 校验要求）。keyword 命中即归类，按顺序取第一个命中。",
+  "ui": {
+    "title": { "en": "Interface", "zh": "界面与交互" },
+    "keywords": ["ui", "interface", "theme", "sidebar", "panel", "widget", "chat", "markdown", "render", "decoration", "badge"]
+  },
+  "tools": {
+    "title": { "en": "Tools", "zh": "工具与能力" },
+    "keywords": ["tool", "toolkit", "skill", "command", "cli", "shell", "terminal", "fs", "file"]
+  },
+  "model": {
+    "title": { "en": "Models", "zh": "模型与推理" },
+    "keywords": ["llm", "model", "provider", "openai", "anthropic", "deepseek", "ollama", "embedding", "rag", "prompt"]
+  },
+  "data": {
+    "title": { "en": "Data", "zh": "数据与存储" },
+    "keywords": ["storage", "database", "sqlite", "memory", "vector", "search", "index", "cache", "persistence"]
+  },
+  "dev": {
+    "title": { "en": "Development", "zh": "开发与调试" },
+    "keywords": ["dev", "debug", "lint", "test", "typescript", "build", "hmr", "inspector", "workflow", "agent"]
+  },
+  "ops": {
+    "title": { "en": "Operations", "zh": "运维与部署" },
+    "keywords": ["deploy", "docker", "k8s", "monitor", "telemetry", "log", "metrics", "otel", "health", "backup"]
+  },
+  "integration": {
+    "title": { "en": "Integrations", "zh": "集成与通讯" },
+    "keywords": ["mcp", "api", "http", "webhook", "slack", "feishu", "wechat", "telegram", "discord", "im", "git"]
+  },
+  "media": {
+    "title": { "en": "Media", "zh": "多媒体" },
+    "keywords": ["image", "audio", "video", "speech", "tts", "stt", "voice", "pdf", "office", "ocr"]
+  },
+  "productivity": {
+    "title": { "en": "Workflow", "zh": "工作流与效率" },
+    "keywords": ["todo", "task", "goal", "plan", "schedule", "cron", "reminder", "note", "knowledge", "kb"]
+  }
+}

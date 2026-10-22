@@ -1,0 +1,41 @@
+{
+  "$comment": "发现来源与策略。这个文件是人工维护的唯一入口；discover.mjs 只按它取候选，不自行扩大范围。",
+  "npmKeywords": [
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "npmScopes": [
+    "@deepseek-ai"
+  ],
+  "seeds": [],
+  "metaIndexes": [],
+  "$metaIndexesNote": "可选的第三方 format-1 索引 URL，仅作为候选进料（会被标记 via:<host>，仍要过全部硬门）。默认空表：旗舰主线不依赖第三方。",
+  "github": {
+    "topicDiscovery": false,
+    "$topicNote": "2026-10 实测 topic:dsh-plugin / dsh-bundle / deepseek-harness 均为 0 个仓库，社区没有 topic 约定，故关闭。",
+    "repoNameSearch": true,
+    "repoMeta": true
+  },
+  "limits": {
+    "maxCandidates": 400,
+    "maxPlugins": 250,
+    "maxVersionsPerPlugin": 20,
+    "maxTarballBytes": 33554432,
+    "maxTarEntries": 10000
+  },
+  "policy": {
+    "requireBundlePatch": true,
+    "blockInstallScripts": true,
+    "blockArchivedRepo": false,
+    "requireLicense": false,
+    "minLatestVersionAgeDays": 0,
+    "reviewGranularity": "major",
+    "gitLane": {
+      "enabled": true,
+      "maxRepos": 25,
+      "$note": "纯 Git 源兜底通道：只处理 GitHub topic 发现到、且仓库 HEAD 声明 dsh.bundle 的项目。需要 token 才能拿到 commit 时间，因此无 token 时基本为空。"
+    }
+  }
+}

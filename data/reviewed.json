@@ -1,0 +1,10 @@
+{
+  "$comment": "人工复核台账。评审绑定到「包名 + major 版本」（policy.reviewGranularity=major）：同 major 内的 minor/patch 自动继承复核，换 major 即失效、退回观察池。artifact 记录复核时的 tarball sha512，用于审计。",
+  "entryExample": {
+    "by": "github:your-name",
+    "at": "2026-10-22T00:00:00Z",
+    "major": 1,
+    "artifact": "sha512-...",
+    "notes": "读过源码：无安装脚本、无网络外联、bundle patch 只注册一个 UI slot"
+  }
+}

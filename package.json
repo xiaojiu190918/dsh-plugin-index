@@ -1,0 +1,21 @@
+{
+  "name": "dsh-plugin-index",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Authoritative, self-hosted plugin market index (format 1) for DeepSeek Harness: npm-first discovery, fail-closed gates, deterministic quality ranking, hourly refresh.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "discover": "node scripts/discover.mjs",
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test test/format.test.mjs",
+    "all": "node scripts/discover.mjs && node scripts/build.mjs && node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "semver": "^7.6.3"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-plugin-market-index": "0.2.1-rc.2"
+  }
+}
