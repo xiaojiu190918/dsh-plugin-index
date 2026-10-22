@@ -417,7 +417,25 @@ async function main() {
   const report = { generatedAt: new Date().toISOString(), considered: 0, accepted: [], rejected: [], missing: [] };
   const resolved = [];
 
-  const names = Object.keys(corpus.candidates ?? {}).slice(0, Number(process.env.DSH_MAX_CANDIDATES ?? context.limits.maxCandidates ?? 400));
+  const maxCandidates = Number(process.env.DSH_MAX_CANDIDATES ?? context.limits.maxCandidates ?? 400);
+  const entries = Object.entries(corpus.candidates ?? {});
+  const numeric = (value) => (Number.isFinite(Number(value)) ? Number(value) : 0);
+  const byDownloads = [...entries].sort((left, right) => numeric(right[1].downloads) - numeric(left[1].downloads));
+  const byRecency = [...entries].sort(
+    (left, right) => Date.parse(right[1].updatedAt ?? right[1].publishedAt ?? 0) - Date.parse(left[1].updatedAt ?? left[1].publishedAt ?? 0),
+  );
+  // Balanced quota: adoption first (people already use it), then recent publishes
+  // (the ecosystem's churn is the point), seeds always in.
+  const downloadQuota = Math.ceil(maxCandidates * 0.7);
+  const recentQuota = maxCandidates - downloadQuota;
+  const names = [
+    ...new Set([
+      ...(sources.seeds ?? []),
+      ...byDownloads.slice(0, downloadQuota).map(([name]) => name),
+      ...byRecency.slice(0, recentQuota).map(([name]) => name),
+    ]),
+  ].slice(0, maxCandidates);
+  report.selection = { byDownloads: downloadQuota, byRecency: recentQuota, candidates: names.length };
   let done = 0;
   await mapLimit(names, Number(process.env.DSH_CONCURRENCY ?? 6), async (name) => {
     try {

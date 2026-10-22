@@ -33,11 +33,15 @@ async function readJson(path, fallback) {
   }
 }
 
-function addCandidate(corpus, name, source) {
+function addCandidate(corpus, name, source, metrics = {}) {
   if (!name) return;
   const entry = (corpus.candidates[name] ??= { sources: [], firstSeen: new Date().toISOString() });
   if (!entry.sources.includes(source)) entry.sources.push(source);
   entry.lastSeen = new Date().toISOString();
+  const downloads = Number(metrics.downloads ?? 0);
+  if (Number.isFinite(downloads) && downloads > (entry.downloads ?? 0)) entry.downloads = downloads;
+  if (metrics.updated && (!entry.updatedAt || metrics.updated > entry.updatedAt)) entry.updatedAt = metrics.updated;
+  if (metrics.published && (!entry.publishedAt || metrics.published > entry.publishedAt)) entry.publishedAt = metrics.published;
 }
 
 async function npmSweep(sources, corpus, log) {
@@ -48,7 +52,13 @@ async function npmSweep(sources, corpus, log) {
       try {
         const page = await searchKeyword(keyword, { from, size: 250 });
         if (page.objects.length === 0) break;
-        for (const object of page.objects) addCandidate(corpus, object.name, `npm:keywords:${keyword}`);
+        for (const object of page.objects) {
+          addCandidate(corpus, object.name, `npm:keywords:${keyword}`, {
+            downloads: object.downloads?.monthly,
+            updated: object.updated,
+            published: object.date,
+          });
+        }
         seen += page.objects.length;
         if (from + page.objects.length >= page.total) break;
       } catch (error) {
@@ -65,7 +75,13 @@ async function npmSweep(sources, corpus, log) {
     for (const from of [0, 250, 500]) {
       try {
         const page = await searchText(`dsh ${term}`, { from, size: 250 });
-        for (const object of page.objects) addCandidate(corpus, object.name, `npm:text:dsh+${term}`);
+        for (const object of page.objects) {
+          addCandidate(corpus, object.name, `npm:text:dsh+${term}`, {
+            downloads: object.downloads?.monthly,
+            updated: object.updated,
+            published: object.date,
+          });
+        }
       } catch (error) {
         log(`npm text "dsh ${term}" from=${String(from)} failed: ${error.message}`);
         break;
@@ -141,10 +157,14 @@ async function main() {
   const repoCandidates = Object.entries(corpus.candidates).filter(([name]) => name.startsWith('repo:'));
 
   // `repo:` entries are recorded for the git lane and never treated as npm names.
+  // Order matters: build.mjs takes the head of the list, so rank by adoption first
+  // (npm monthly downloads) and keep the name as the deterministic tie-break.
   const output = {
     generatedAt: corpus.generatedAt,
     counts: { packages: candidates.length, repos: repoCandidates.length },
-    candidates: Object.fromEntries(candidates.sort(([left], [right]) => left.localeCompare(right))),
+    candidates: Object.fromEntries(
+      candidates.sort((left, right) => (right[1].downloads ?? 0) - (left[1].downloads ?? 0) || left[0].localeCompare(right[0])),
+    ),
     repos: Object.fromEntries(repoCandidates.sort(([left], [right]) => left.localeCompare(right))),
   };
   await mkdir(dirname(join(DATA, 'corpus.json')), { recursive: true });
