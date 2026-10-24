@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T09:33:12.137Z",
-  "considered": 376,
+  "generatedAt": "2026-10-24T14:02:04.842Z",
+  "considered": 386,
   "accepted": [
     {
       "name": "@changfenhuang/dsh-genui",
@@ -78,7 +78,7 @@
           "docs": 10
         }
       },
-      "version": "0.18.0",
+      "version": "0.18.1",
       "labels": [
         "provenance",
         "ui",
@@ -108,7 +108,7 @@
       "warnings": []
     },
     {
-      "name": "@perrylink/dsh-github",
+      "name": "clearai-dsh",
       "score": {
         "total": 97,
         "parts": {
@@ -120,7 +120,7 @@
           "docs": 10
         }
       },
-      "version": "0.7.27",
+      "version": "0.5.7",
       "labels": [
         "provenance",
         "ui",
@@ -129,21 +129,64 @@
       "warnings": []
     },
     {
-      "name": "@brokkai/dsh-plugin-bifrost",
+      "name": "dsh-checkpoint-rewind",
       "score": {
-        "total": 94,
+        "total": 97,
         "parts": {
           "compatibility": 20,
           "maintenance": 20,
           "safety": 20,
           "provenance": 15,
-          "adoption": 9,
+          "adoption": 12,
           "docs": 10
         }
       },
-      "version": "0.14.1",
+      "version": "0.6.34",
       "labels": [
         "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "dsh-memento",
+      "score": {
+        "total": 97,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 12,
+          "docs": 10
+        }
+      },
+      "version": "0.5.28",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "dsh-output-styles",
+      "score": {
+        "total": 96,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 11,
+          "docs": 10
+        }
+      },
+      "version": "0.8.2",
+      "labels": [
+        "provenance",
+        "ui",
         "auto"
       ],
       "warnings": []
@@ -227,7 +270,7 @@
           "docs": 10
         }
       },
-      "version": "1.2.15",
+      "version": "1.2.16",
       "labels": [
         "no-engines",
         "provenance",
@@ -444,7 +487,7 @@
           "docs": 10
         }
       },
-      "version": "1.9.34",
+      "version": "1.9.36",
       "labels": [
         "ui",
         "auto"
@@ -472,72 +515,6 @@
       "warnings": []
     },
     {
-      "name": "@michengai/dsh-agency-agents",
-      "score": {
-        "total": 87,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 15,
-          "docs": 7
-        }
-      },
-      "version": "1.2.12",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
-      "name": "@michengai/dsh-im-connect",
-      "score": {
-        "total": 87,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 15,
-          "docs": 7
-        }
-      },
-      "version": "1.0.15",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
-      "name": "@yunmiao/studymate",
-      "score": {
-        "total": 87,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 12,
-          "docs": 10
-        }
-      },
-      "version": "2.0.3",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
       "name": "dsh-builtin-browser",
       "score": {
         "total": 87,
@@ -558,7 +535,7 @@
       "warnings": []
     },
     {
-      "name": "dsh-plugin-ops-bundle",
+      "name": "dsh-grok-subscription",
       "score": {
         "total": 87,
         "parts": {
@@ -570,7 +547,7 @@
           "docs": 10
         }
       },
-      "version": "0.20.5",
+      "version": "2.0.9",
       "labels": [
         "no-engines",
         "provenance",
@@ -592,7 +569,7 @@
           "docs": 10
         }
       },
-      "version": "0.16.1",
+      "version": "0.17.0",
       "labels": [
         "no-engines",
         "provenance",
@@ -601,26 +578,30 @@
       "warnings": []
     },
     {
-      "name": "dsh-arabic",
+      "name": "@angelyeye/dsh-cost-tracker",
       "score": {
-        "total": 86,
+        "total": 85,
         "parts": {
-          "compatibility": 10,
+          "compatibility": 20,
           "maintenance": 20,
           "safety": 20,
           "provenance": 15,
-          "adoption": 11,
+          "adoption": 0,
           "docs": 10
         }
       },
-      "version": "0.4.6",
+      "version": "1.9.6",
       "labels": [
-        "no-engines",
         "provenance",
         "ui",
         "auto"
       ],
-      "warnings": []
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@angelyeye/dsh-cost-tracker"
+        }
+      ]
     },
     {
       "name": "@ash-qw/dsh-theme-prts",
@@ -670,6 +651,178 @@
       ]
     },
     {
+      "name": "@dsh-ai-providers/anthropic",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.5.0",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@dsh-ai-providers/anthropic"
+        }
+      ]
+    },
+    {
+      "name": "@dsh-ai-providers/localai",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.5.0",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@dsh-ai-providers/localai"
+        }
+      ]
+    },
+    {
+      "name": "@dsh-ai-providers/openai",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.5.0",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@dsh-ai-providers/openai"
+        }
+      ]
+    },
+    {
+      "name": "@dsh-ai-providers/runtime",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.5.0",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@dsh-ai-providers/runtime"
+        }
+      ]
+    },
+    {
+      "name": "@dsmm/dsmm",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.3.17",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@dsmm/dsmm"
+        }
+      ]
+    },
+    {
+      "name": "@eduwork/dsh-oidc",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 10,
+          "docs": 10
+        }
+      },
+      "version": "0.3.2",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "@lemoncat7/dsh-ssh",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 12,
+          "docs": 10
+        }
+      },
+      "version": "1.11.7",
+      "labels": [
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
       "name": "@mars-sea/dsh-commandcode-provider",
       "score": {
         "total": 85,
@@ -696,6 +849,32 @@
       ]
     },
     {
+      "name": "@my-dsh/dsh-intelligent-ui",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.1.0",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@my-dsh/dsh-intelligent-ui"
+        }
+      ]
+    },
+    {
       "name": "@nonamelego/dsh-catppuccin",
       "score": {
         "total": 85,
@@ -718,6 +897,32 @@
         {
           "code": "no-usage-signal",
           "detail": "@nonamelego/dsh-catppuccin"
+        }
+      ]
+    },
+    {
+      "name": "@perrylink/dsh-github",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.7.27",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@perrylink/dsh-github"
         }
       ]
     },
@@ -771,52 +976,6 @@
           "detail": "@weibaohui/skills-management"
         }
       ]
-    },
-    {
-      "name": "clearai-dsh",
-      "score": {
-        "total": 85,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.5.7",
-      "labels": [
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "clearai-dsh"
-        }
-      ]
-    },
-    {
-      "name": "dsh-argp",
-      "score": {
-        "total": 85,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 12,
-          "docs": 10
-        }
-      },
-      "version": "1.10.1",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": []
     },
     {
       "name": "dsh-auto-review",
@@ -1026,7 +1185,29 @@
       ]
     },
     {
-      "name": "dsh-memento",
+      "name": "dsh-memory-spaces",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 10,
+          "docs": 10
+        }
+      },
+      "version": "0.1.1",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "dsh-model-fallback-queue",
       "score": {
         "total": 85,
         "parts": {
@@ -1038,7 +1219,7 @@
           "docs": 10
         }
       },
-      "version": "0.5.28",
+      "version": "0.2.6",
       "labels": [
         "provenance",
         "ui",
@@ -1047,7 +1228,59 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-memento"
+          "detail": "dsh-model-fallback-queue"
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-health",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.4.2",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-plugin-health"
+        }
+      ]
+    },
+    {
+      "name": "dsh-qoder-connect",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.2.10",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-qoder-connect"
         }
       ]
     },
@@ -1077,7 +1310,7 @@
       ]
     },
     {
-      "name": "dsh-tool-web-enhanced-profile",
+      "name": "dsh-semble",
       "score": {
         "total": 85,
         "parts": {
@@ -1089,7 +1322,7 @@
           "docs": 10
         }
       },
-      "version": "0.1.2",
+      "version": "3.0.2",
       "labels": [
         "provenance",
         "auto"
@@ -1097,7 +1330,32 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-tool-web-enhanced-profile"
+          "detail": "dsh-semble"
+        }
+      ]
+    },
+    {
+      "name": "dsh-session-sync",
+      "score": {
+        "total": 85,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.2.31",
+      "labels": [
+        "provenance",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-session-sync"
         }
       ]
     },
@@ -1180,28 +1438,6 @@
       ]
     },
     {
-      "name": "dsh-write-protect",
-      "score": {
-        "total": 85,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 10,
-          "docs": 10
-        }
-      },
-      "version": "0.3.0",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
       "name": "dsh-wsl-tool",
       "score": {
         "total": 85,
@@ -1214,7 +1450,7 @@
           "docs": 10
         }
       },
-      "version": "1.12.9",
+      "version": "2.0.0",
       "labels": [
         "ui",
         "auto"
@@ -1222,7 +1458,29 @@
       "warnings": []
     },
     {
-      "name": "@xiaoso/dsh-run-config",
+      "name": "1flowbase-dsh-plugin",
+      "score": {
+        "total": 84,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 9,
+          "docs": 10
+        }
+      },
+      "version": "0.6.0",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "dsh-sidecard-ask",
       "score": {
         "total": 84,
         "parts": {
@@ -1231,6 +1489,88 @@
           "safety": 16,
           "provenance": 7,
           "adoption": 11,
+          "docs": 10
+        }
+      },
+      "version": "2.1.2",
+      "labels": [
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "@guowenzhang/dsh-claude-compat",
+      "score": {
+        "total": 83,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 10,
+          "docs": 10
+        }
+      },
+      "version": "1.3.0",
+      "labels": [
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "@guowenzhang/dsh-drawio",
+      "score": {
+        "total": 83,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 10,
+          "docs": 10
+        }
+      },
+      "version": "1.2.0",
+      "labels": [
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "@lujianjun19/dsh-llm-github-copilot",
+      "score": {
+        "total": 83,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 11,
+          "docs": 7
+        }
+      },
+      "version": "0.4.11",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "@sidleo3/dsh-chat",
+      "score": {
+        "total": 83,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 10,
           "docs": 10
         }
       },
@@ -1242,27 +1582,7 @@
       "warnings": []
     },
     {
-      "name": "i-am-yuike",
-      "score": {
-        "total": 84,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 11,
-          "docs": 10
-        }
-      },
-      "version": "1.0.10",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
-      "name": "@fffangchenghao/dsh-web-search",
+      "name": "dsh-channel-wechat",
       "score": {
         "total": 83,
         "parts": {
@@ -1274,7 +1594,7 @@
           "docs": 10
         }
       },
-      "version": "0.19.3",
+      "version": "0.2.7",
       "labels": [
         "ui",
         "auto"
@@ -1282,41 +1602,23 @@
       "warnings": []
     },
     {
-      "name": "@wxg-prc-cpg/dsh-weknora",
+      "name": "dsh-zen-remote",
       "score": {
         "total": 83,
         "parts": {
           "compatibility": 10,
-          "maintenance": 16,
+          "maintenance": 20,
           "safety": 20,
           "provenance": 15,
-          "adoption": 12,
-          "docs": 10
+          "adoption": 11,
+          "docs": 7
         }
       },
-      "version": "0.1.0",
+      "version": "2.2.5",
       "labels": [
         "no-engines",
         "provenance",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
-      "name": "tofu-box",
-      "score": {
-        "total": 83,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 10,
-          "docs": 10
-        }
-      },
-      "version": "1.2.2",
-      "labels": [
+        "ui",
         "auto"
       ],
       "warnings": []
@@ -1348,84 +1650,20 @@
       ]
     },
     {
-      "name": "dsh-web-fetch-enhanced",
+      "name": "dsh-memory-core",
       "score": {
         "total": 82,
         "parts": {
           "compatibility": 20,
           "maintenance": 20,
-          "safety": 20,
-          "provenance": 12,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.1.0",
-      "labels": [
-        "archived-upstream",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "archived-repo",
-          "detail": "Yurzi/dsh-web-fetch-enhanced"
-        },
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-web-fetch-enhanced"
-        }
-      ]
-    },
-    {
-      "name": "dsh-web-search-enhanced",
-      "score": {
-        "total": 82,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 12,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.1.10",
-      "labels": [
-        "archived-upstream",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "archived-repo",
-          "detail": "Yurzi/dsh-web-search-enhanced"
-        },
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-web-search-enhanced"
-        }
-      ]
-    },
-    {
-      "name": "dsh-tool-discovery",
-      "score": {
-        "total": 81,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
+          "safety": 16,
+          "provenance": 7,
           "adoption": 9,
-          "docs": 7
+          "docs": 10
         }
       },
-      "version": "0.4.4",
+      "version": "0.1.9",
       "labels": [
-        "no-engines",
-        "provenance",
         "ui",
         "auto"
       ],
@@ -1514,27 +1752,6 @@
       "warnings": []
     },
     {
-      "name": "@dfy-plugins/dsh-appearance",
-      "score": {
-        "total": 77,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 14,
-          "docs": 10
-        }
-      },
-      "version": "0.1.7",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
       "name": "@dfy-plugins/dsh-visualize",
       "score": {
         "total": 77,
@@ -1548,27 +1765,6 @@
         }
       },
       "version": "0.1.5",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
-      "name": "@eddyskywalker/dsh-chatgpt-subscription",
-      "score": {
-        "total": 77,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 14,
-          "docs": 10
-        }
-      },
-      "version": "0.38.1",
       "labels": [
         "no-engines",
         "ui",
@@ -1671,7 +1867,7 @@
           "docs": 10
         }
       },
-      "version": "5.8.3",
+      "version": "5.8.4",
       "labels": [
         "no-engines",
         "ui",
@@ -1764,31 +1960,6 @@
       "warnings": []
     },
     {
-      "name": "dsh-plugin-showcase",
-      "score": {
-        "total": 77,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 3,
-          "adoption": 8,
-          "docs": 10
-        }
-      },
-      "version": "0.2.0",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-repository",
-          "detail": "dsh-plugin-showcase"
-        }
-      ]
-    },
-    {
       "name": "@dfy-plugins/dsh-image-generation",
       "score": {
         "total": 76,
@@ -1808,6 +1979,32 @@
         "auto"
       ],
       "warnings": []
+    },
+    {
+      "name": "@agent_forge/forge-dsh",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.84.2",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@agent_forge/forge-dsh"
+        }
+      ]
     },
     {
       "name": "@anweat/dsh-browser",
@@ -1964,7 +2161,7 @@
       ]
     },
     {
-      "name": "@iasiv5/dsh-skins",
+      "name": "@hualiong/dsh-plugin-suite",
       "score": {
         "total": 75,
         "parts": {
@@ -1976,7 +2173,33 @@
           "docs": 10
         }
       },
-      "version": "1.5.16",
+      "version": "1.4.2",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@hualiong/dsh-plugin-suite"
+        }
+      ]
+    },
+    {
+      "name": "@hualiong/dsh-qq-bot",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.4.2",
       "labels": [
         "no-engines",
         "provenance",
@@ -1986,7 +2209,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@iasiv5/dsh-skins"
+          "detail": "@hualiong/dsh-qq-bot"
         }
       ]
     },
@@ -2030,7 +2253,7 @@
           "docs": 10
         }
       },
-      "version": "0.1.55",
+      "version": "0.1.56",
       "labels": [
         "no-engines",
         "provenance",
@@ -2045,7 +2268,7 @@
       ]
     },
     {
-      "name": "@mofeng2223/dsh-claude-provider",
+      "name": "@max-null/dsh-memory",
       "score": {
         "total": 75,
         "parts": {
@@ -2057,7 +2280,7 @@
           "docs": 10
         }
       },
-      "version": "0.6.1",
+      "version": "0.19.0",
       "labels": [
         "no-engines",
         "provenance",
@@ -2067,12 +2290,12 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@mofeng2223/dsh-claude-provider"
+          "detail": "@max-null/dsh-memory"
         }
       ]
     },
     {
-      "name": "@mstar-harness/dsh",
+      "name": "@q253595422/dsh-imagegen-video",
       "score": {
         "total": 75,
         "parts": {
@@ -2084,7 +2307,7 @@
           "docs": 10
         }
       },
-      "version": "4.0.8",
+      "version": "1.17.0",
       "labels": [
         "no-engines",
         "provenance",
@@ -2094,7 +2317,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@mstar-harness/dsh"
+          "detail": "@q253595422/dsh-imagegen-video"
         }
       ]
     },
@@ -2137,7 +2360,7 @@
           "docs": 10
         }
       },
-      "version": "1.6.5",
+      "version": "1.6.7",
       "labels": [
         "no-engines",
         "provenance",
@@ -2148,6 +2371,60 @@
         {
           "code": "no-usage-signal",
           "detail": "@twinsearth/w2m-dsh-plugin"
+        }
+      ]
+    },
+    {
+      "name": "@viztor/dsh-tinyfish",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.13.0",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@viztor/dsh-tinyfish"
+        }
+      ]
+    },
+    {
+      "name": "@weniatall/dsh-theme-studio",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.3.0",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@weniatall/dsh-theme-studio"
         }
       ]
     },
@@ -2203,6 +2480,106 @@
           "detail": "@yottameta/yotta-skills-plugin"
         }
       ]
+    },
+    {
+      "name": "@yunmiao/studymate",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "2.0.3",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@yunmiao/studymate"
+        }
+      ]
+    },
+    {
+      "name": "@zhiqiangme/dsh-autostart-workbuddy",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "26.10.24",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@zhiqiangme/dsh-autostart-workbuddy"
+        }
+      ]
+    },
+    {
+      "name": "agents-gitflow-guard",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.1.8",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "agents-gitflow-guard"
+        }
+      ]
+    },
+    {
+      "name": "bladebro",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 12,
+          "docs": 10
+        }
+      },
+      "version": "4.6.5",
+      "labels": [
+        "no-engines",
+        "auto"
+      ],
+      "warnings": []
     },
     {
       "name": "clawock-dsh",
@@ -2308,59 +2685,6 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-aimail"
-        }
-      ]
-    },
-    {
-      "name": "dsh-all-search",
-      "score": {
-        "total": 75,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.2.17",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-all-search"
-        }
-      ]
-    },
-    {
-      "name": "dsh-baton-host",
-      "score": {
-        "total": 75,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.5.9",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-baton-host"
         }
       ]
     },
@@ -2500,32 +2824,6 @@
       ]
     },
     {
-      "name": "dsh-cloudflare-browser-run",
-      "score": {
-        "total": 75,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.2.10",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-cloudflare-browser-run"
-        }
-      ]
-    },
-    {
       "name": "dsh-command-context-trim",
       "score": {
         "total": 75,
@@ -2565,7 +2863,7 @@
           "docs": 10
         }
       },
-      "version": "0.1.82",
+      "version": "0.1.83",
       "labels": [
         "no-engines",
         "provenance",
@@ -2634,59 +2932,6 @@
       ]
     },
     {
-      "name": "dsh-gemini-multimodal",
-      "score": {
-        "total": 75,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.1.8",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-gemini-multimodal"
-        }
-      ]
-    },
-    {
-      "name": "dsh-grok-subscription",
-      "score": {
-        "total": 75,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "2.0.9",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-grok-subscription"
-        }
-      ]
-    },
-    {
       "name": "dsh-image-viewer",
       "score": {
         "total": 75,
@@ -2710,6 +2955,33 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-image-viewer"
+        }
+      ]
+    },
+    {
+      "name": "dsh-instruction-memory",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.4.2",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-instruction-memory"
         }
       ]
     },
@@ -2753,7 +3025,7 @@
           "docs": 10
         }
       },
-      "version": "0.10.10",
+      "version": "0.10.11",
       "labels": [
         "no-engines",
         "provenance",
@@ -2833,7 +3105,7 @@
           "docs": 10
         }
       },
-      "version": "0.4.6",
+      "version": "0.4.8",
       "labels": [
         "no-engines",
         "provenance",
@@ -2844,6 +3116,33 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-omarchy-agent"
+        }
+      ]
+    },
+    {
+      "name": "dsh-onebot-hub",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.11.0",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-onebot-hub"
         }
       ]
     },
@@ -2875,7 +3174,7 @@
       ]
     },
     {
-      "name": "dsh-plugin-lcu",
+      "name": "dsh-plugin-control-your-development",
       "score": {
         "total": 75,
         "parts": {
@@ -2887,16 +3186,44 @@
           "docs": 10
         }
       },
-      "version": "0.3.7",
+      "version": "0.7.0",
       "labels": [
         "no-engines",
         "provenance",
+        "ui",
         "auto"
       ],
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-plugin-lcu"
+          "detail": "dsh-plugin-control-your-development"
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-ops-bundle",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.20.5",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-plugin-ops-bundle"
         }
       ]
     },
@@ -3002,7 +3329,7 @@
       ]
     },
     {
-      "name": "dsh-pwsh-rtk-rewrite",
+      "name": "dsh-save-button",
       "score": {
         "total": 75,
         "parts": {
@@ -3014,39 +3341,19 @@
           "docs": 10
         }
       },
-      "version": "1.1.8",
+      "version": "0.1.6",
       "labels": [
         "no-engines",
         "provenance",
+        "ui",
         "auto"
       ],
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-pwsh-rtk-rewrite"
+          "detail": "dsh-save-button"
         }
       ]
-    },
-    {
-      "name": "dsh-skill-mcp-panel",
-      "score": {
-        "total": 75,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 12,
-          "docs": 10
-        }
-      },
-      "version": "2.3.5",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
     },
     {
       "name": "dsh-skills-anywhere",
@@ -3072,32 +3379,6 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-skills-anywhere"
-        }
-      ]
-    },
-    {
-      "name": "dsh-subagent-codex-pro",
-      "score": {
-        "total": 75,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.6.2",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-subagent-codex-pro"
         }
       ]
     },
@@ -3141,7 +3422,7 @@
           "docs": 10
         }
       },
-      "version": "0.0.74",
+      "version": "0.0.75",
       "labels": [
         "no-engines",
         "provenance",
@@ -3183,6 +3464,33 @@
       ]
     },
     {
+      "name": "dsh-theme-endfield",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.2.3",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-theme-endfield"
+        }
+      ]
+    },
+    {
       "name": "dsh-thoughtdag",
       "score": {
         "total": 75,
@@ -3195,7 +3503,7 @@
           "docs": 10
         }
       },
-      "version": "0.5.24",
+      "version": "0.5.25",
       "labels": [
         "no-engines",
         "provenance",
@@ -3206,6 +3514,59 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-thoughtdag"
+        }
+      ]
+    },
+    {
+      "name": "dsh-tinyfish",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.13.0",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-tinyfish"
+        }
+      ]
+    },
+    {
+      "name": "dsh-web-fetch-fakeip",
+      "score": {
+        "total": 75,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.2.0",
+      "labels": [
+        "no-engines",
+        "provenance",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-web-fetch-fakeip"
         }
       ]
     },
@@ -3260,33 +3621,6 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-wechat-plugin"
-        }
-      ]
-    },
-    {
-      "name": "local-shell-mcp-dsh",
-      "score": {
-        "total": 75,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "5.1.4",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "local-shell-mcp-dsh"
         }
       ]
     },
@@ -3368,6 +3702,31 @@
       ]
     },
     {
+      "name": "@guowenzhang/dsh-memory",
+      "score": {
+        "total": 73,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.2.0",
+      "labels": [
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@guowenzhang/dsh-memory"
+        }
+      ]
+    },
+    {
       "name": "@kenz1117/dsh-ui-usage-billing",
       "score": {
         "total": 73,
@@ -3418,27 +3777,54 @@
       ]
     },
     {
-      "name": "@lynn123411/dsh-chat-translate",
+      "name": "@linfengqaqtat/dsh-scriptor",
       "score": {
         "total": 73,
         "parts": {
-          "compatibility": 20,
+          "compatibility": 8,
           "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
+          "safety": 20,
+          "provenance": 15,
           "adoption": 0,
           "docs": 10
         }
       },
-      "version": "3.6.0",
+      "version": "8.3.2",
       "labels": [
+        "provenance",
         "ui",
         "auto"
       ],
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@lynn123411/dsh-chat-translate"
+          "detail": "@linfengqaqtat/dsh-scriptor"
+        }
+      ]
+    },
+    {
+      "name": "@linfengqaqtat/dsh-scriptor-retrieval",
+      "score": {
+        "total": 73,
+        "parts": {
+          "compatibility": 8,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "8.3.2",
+      "labels": [
+        "provenance",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@linfengqaqtat/dsh-scriptor-retrieval"
         }
       ]
     },
@@ -3463,32 +3849,6 @@
         {
           "code": "no-usage-signal",
           "detail": "@morlay/better-session"
-        }
-      ]
-    },
-    {
-      "name": "@takboo/dsh-session-bin",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 8,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.2.6",
-      "labels": [
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@takboo/dsh-session-bin"
         }
       ]
     },
@@ -3543,6 +3903,31 @@
       ]
     },
     {
+      "name": "dsh-argp",
+      "score": {
+        "total": 73,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.10.1",
+      "labels": [
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-argp"
+        }
+      ]
+    },
+    {
       "name": "dsh-auth-gate",
       "score": {
         "total": 73,
@@ -3580,7 +3965,7 @@
           "docs": 10
         }
       },
-      "version": "2.0.4",
+      "version": "2.1.0",
       "labels": [
         "ui",
         "auto"
@@ -3593,7 +3978,7 @@
       ]
     },
     {
-      "name": "dsh-chat-image-lightbox",
+      "name": "dsh-context-zip",
       "score": {
         "total": 73,
         "parts": {
@@ -3605,7 +3990,7 @@
           "docs": 10
         }
       },
-      "version": "1.9.3",
+      "version": "0.1.10",
       "labels": [
         "ui",
         "auto"
@@ -3613,12 +3998,12 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-chat-image-lightbox"
+          "detail": "dsh-context-zip"
         }
       ]
     },
     {
-      "name": "dsh-checkpoint-rewind",
+      "name": "dsh-conversation-recycle-bin",
       "score": {
         "total": 73,
         "parts": {
@@ -3630,7 +4015,7 @@
           "docs": 10
         }
       },
-      "version": "0.6.33",
+      "version": "0.3.6",
       "labels": [
         "ui",
         "auto"
@@ -3638,57 +4023,9 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-checkpoint-rewind"
+          "detail": "dsh-conversation-recycle-bin"
         }
       ]
-    },
-    {
-      "name": "dsh-composer-expand",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 18,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.1.4",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-composer-expand"
-        }
-      ]
-    },
-    {
-      "name": "dsh-composer-layout",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 10,
-          "docs": 10
-        }
-      },
-      "version": "0.1.24",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
     },
     {
       "name": "dsh-custom-mode",
@@ -3716,6 +4053,27 @@
       ]
     },
     {
+      "name": "dsh-ding",
+      "score": {
+        "total": 73,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 10,
+          "docs": 10
+        }
+      },
+      "version": "1.1.0",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
       "name": "dsh-doublecheck",
       "score": {
         "total": 73,
@@ -3740,7 +4098,7 @@
       ]
     },
     {
-      "name": "dsh-game-material-master",
+      "name": "dsh-herta",
       "score": {
         "total": 73,
         "parts": {
@@ -3752,7 +4110,7 @@
           "docs": 10
         }
       },
-      "version": "0.10.2",
+      "version": "0.1.11",
       "labels": [
         "ui",
         "auto"
@@ -3760,7 +4118,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-game-material-master"
+          "detail": "dsh-herta"
         }
       ]
     },
@@ -3814,7 +4172,7 @@
       ]
     },
     {
-      "name": "dsh-mattpocock-skills-deck",
+      "name": "dsh-metaphysics",
       "score": {
         "total": 73,
         "parts": {
@@ -3826,7 +4184,7 @@
           "docs": 10
         }
       },
-      "version": "1.9.0-beta.12",
+      "version": "0.15.0",
       "labels": [
         "ui",
         "auto"
@@ -3834,32 +4192,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-mattpocock-skills-deck"
-        }
-      ]
-    },
-    {
-      "name": "dsh-mcp-ops",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.1.5",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-mcp-ops"
+          "detail": "dsh-metaphysics"
         }
       ]
     },
@@ -3885,31 +4218,6 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-notify-say"
-        }
-      ]
-    },
-    {
-      "name": "dsh-novel-solo",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.2.2",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-novel-solo"
         }
       ]
     },
@@ -3985,6 +4293,31 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-permission-rules"
+        }
+      ]
+    },
+    {
+      "name": "dsh-pet-plugin",
+      "score": {
+        "total": 73,
+        "parts": {
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.19.9",
+      "labels": [
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-pet-plugin"
         }
       ]
     },
@@ -4114,7 +4447,7 @@
       ]
     },
     {
-      "name": "dsh-reasoning-options",
+      "name": "dsh-skill-tag",
       "score": {
         "total": 73,
         "parts": {
@@ -4126,7 +4459,7 @@
           "docs": 10
         }
       },
-      "version": "0.6.2",
+      "version": "0.1.6",
       "labels": [
         "ui",
         "auto"
@@ -4134,56 +4467,9 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-reasoning-options"
+          "detail": "dsh-skill-tag"
         }
       ]
-    },
-    {
-      "name": "dsh-sidenote",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 8,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.7.0",
-      "labels": [
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-sidenote"
-        }
-      ]
-    },
-    {
-      "name": "dsh-skill-cockpit",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 10,
-          "docs": 10
-        }
-      },
-      "version": "1.0.0",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
     },
     {
       "name": "dsh-soul-md",
@@ -4211,40 +4497,15 @@
       ]
     },
     {
-      "name": "dsh-speak",
+      "name": "dsh-tidy-display",
       "score": {
         "total": 73,
         "parts": {
-          "compatibility": 20,
+          "compatibility": 8,
           "maintenance": 20,
           "safety": 16,
           "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "1.8.2",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-speak"
-        }
-      ]
-    },
-    {
-      "name": "dsh-tdai-memory",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
+          "adoption": 12,
           "docs": 10
         }
       },
@@ -4253,37 +4514,7 @@
         "ui",
         "auto"
       ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-tdai-memory"
-        }
-      ]
-    },
-    {
-      "name": "dsh-tool-vision",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.10.4",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-tool-vision"
-        }
-      ]
+      "warnings": []
     },
     {
       "name": "dsh-vibe-math",
@@ -4306,31 +4537,6 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-vibe-math"
-        }
-      ]
-    },
-    {
-      "name": "dsh-voice-alert",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.4.15",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-voice-alert"
         }
       ]
     },
@@ -4380,7 +4586,7 @@
       "warnings": []
     },
     {
-      "name": "dsh-wechat",
+      "name": "dsh-webcode-bridge",
       "score": {
         "total": 73,
         "parts": {
@@ -4392,7 +4598,7 @@
           "docs": 10
         }
       },
-      "version": "0.13.3",
+      "version": "0.22.2",
       "labels": [
         "ui",
         "auto"
@@ -4400,7 +4606,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-wechat"
+          "detail": "dsh-webcode-bridge"
         }
       ]
     },
@@ -4426,31 +4632,6 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-zotero"
-        }
-      ]
-    },
-    {
-      "name": "evo-subagent",
-      "score": {
-        "total": 73,
-        "parts": {
-          "compatibility": 20,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "1.1.0",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "evo-subagent"
         }
       ]
     },
@@ -4525,7 +4706,7 @@
       ]
     },
     {
-      "name": "@benz-ai-x/dsh-research-graph",
+      "name": "@openbkn/dsh-business-context",
       "score": {
         "total": 72,
         "parts": {
@@ -4537,7 +4718,7 @@
           "docs": 7
         }
       },
-      "version": "0.2.1-rc.3",
+      "version": "0.2.0-rc.2-openbkn.0.2.0-9",
       "labels": [
         "no-engines",
         "provenance",
@@ -4547,169 +4728,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@benz-ai-x/dsh-research-graph"
-        }
-      ]
-    },
-    {
-      "name": "@michengai/dsh-btw",
-      "score": {
-        "total": 72,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 7
-        }
-      },
-      "version": "1.0.5",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@michengai/dsh-btw"
-        }
-      ]
-    },
-    {
-      "name": "@michengai/dsh-code-review",
-      "score": {
-        "total": 72,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 7
-        }
-      },
-      "version": "1.0.2",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@michengai/dsh-code-review"
-        }
-      ]
-    },
-    {
-      "name": "@michengai/dsh-codex-pet",
-      "score": {
-        "total": 72,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 7
-        }
-      },
-      "version": "1.0.4",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@michengai/dsh-codex-pet"
-        }
-      ]
-    },
-    {
-      "name": "@michengai/dsh-codex-ui",
-      "score": {
-        "total": 72,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 7
-        }
-      },
-      "version": "1.1.48",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@michengai/dsh-codex-ui"
-        }
-      ]
-    },
-    {
-      "name": "@michengai/dsh-pua",
-      "score": {
-        "total": 72,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 7
-        }
-      },
-      "version": "1.0.2",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@michengai/dsh-pua"
-        }
-      ]
-    },
-    {
-      "name": "@michengai/dsh-simplify",
-      "score": {
-        "total": 72,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 7
-        }
-      },
-      "version": "1.0.3",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@michengai/dsh-simplify"
+          "detail": "@openbkn/dsh-business-context"
         }
       ]
     },
@@ -4741,33 +4760,6 @@
       ]
     },
     {
-      "name": "dsh-onebot-hub",
-      "score": {
-        "total": 72,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 20,
-          "provenance": 15,
-          "adoption": 0,
-          "docs": 7
-        }
-      },
-      "version": "0.11.0-beta.6",
-      "labels": [
-        "no-engines",
-        "provenance",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-onebot-hub"
-        }
-      ]
-    },
-    {
       "name": "@cocofhu/skillhub",
       "score": {
         "total": 71,
@@ -4795,28 +4787,7 @@
       ]
     },
     {
-      "name": "@mimateinn/dsh-i18n",
-      "score": {
-        "total": 71,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 18,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 10,
-          "docs": 10
-        }
-      },
-      "version": "0.2.6",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
-      "name": "@picgo/dsh-plugin",
+      "name": "@wxg-prc-cpg/dsh-weknora",
       "score": {
         "total": 71,
         "parts": {
@@ -4828,7 +4799,7 @@
           "docs": 10
         }
       },
-      "version": "0.2.0",
+      "version": "0.1.0",
       "labels": [
         "no-engines",
         "provenance",
@@ -4837,24 +4808,66 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@picgo/dsh-plugin"
+          "detail": "@wxg-prc-cpg/dsh-weknora"
         }
       ]
     },
     {
-      "name": "deepseek-harness-lark",
+      "name": "dsh-codex-connect-plus",
       "score": {
         "total": 71,
         "parts": {
           "compatibility": 10,
-          "maintenance": 16,
+          "maintenance": 18,
           "safety": 16,
           "provenance": 7,
-          "adoption": 12,
+          "adoption": 10,
           "docs": 10
         }
       },
-      "version": "0.1.5",
+      "version": "0.1.0-beta.6",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "dsh-delete-chat",
+      "score": {
+        "total": 71,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 18,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 10,
+          "docs": 10
+        }
+      },
+      "version": "0.1.1",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "dsh-latex-guard",
+      "score": {
+        "total": 71,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 18,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 10,
+          "docs": 10
+        }
+      },
+      "version": "0.1.3",
       "labels": [
         "no-engines",
         "auto"
@@ -4893,26 +4906,6 @@
       ]
     },
     {
-      "name": "@rvaim/dsh-plugin-bridge",
-      "score": {
-        "total": 70,
-        "parts": {
-          "compatibility": 8,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 9,
-          "docs": 10
-        }
-      },
-      "version": "0.10.2",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": []
-    },
-    {
       "name": "dsh-github-copilot",
       "score": {
         "total": 70,
@@ -4939,50 +4932,83 @@
       ]
     },
     {
-      "name": "dsh-jiuling-remote-desktop",
+      "name": "dsh-mattpocock-skills-deck",
       "score": {
         "total": 70,
         "parts": {
-          "compatibility": 10,
+          "compatibility": 20,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 7
+        }
+      },
+      "version": "1.9.0-beta.15",
+      "labels": [
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-mattpocock-skills-deck"
+        }
+      ]
+    },
+    {
+      "name": "@alanzhao/dsh-balance-monitor",
+      "score": {
+        "total": 69,
+        "parts": {
+          "compatibility": 20,
           "maintenance": 20,
           "safety": 16,
           "provenance": 3,
-          "adoption": 11,
+          "adoption": 0,
           "docs": 10
         }
       },
-      "version": "1.0.42",
+      "version": "0.8.2",
       "labels": [
-        "no-engines",
         "ui",
         "auto"
       ],
       "warnings": [
         {
           "code": "no-repository",
-          "detail": "dsh-jiuling-remote-desktop"
+          "detail": "@alanzhao/dsh-balance-monitor"
+        },
+        {
+          "code": "no-usage-signal",
+          "detail": "@alanzhao/dsh-balance-monitor"
         }
       ]
     },
     {
-      "name": "dsh-boot-guard",
+      "name": "@linfengqaqtat/dsh-scriptor-full",
       "score": {
         "total": 69,
         "parts": {
-          "compatibility": 10,
-          "maintenance": 16,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 10,
-          "docs": 10
+          "compatibility": 8,
+          "maintenance": 20,
+          "safety": 20,
+          "provenance": 15,
+          "adoption": 0,
+          "docs": 6
         }
       },
-      "version": "1.1.2",
+      "version": "8.3.2",
       "labels": [
-        "no-engines",
+        "provenance",
         "auto"
       ],
-      "warnings": []
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@linfengqaqtat/dsh-scriptor-full"
+        }
+      ]
     },
     {
       "name": "dsh-plugin-model-proxy",
@@ -5009,6 +5035,27 @@
           "detail": "dsh-plugin-model-proxy"
         }
       ]
+    },
+    {
+      "name": "dsh-plugin-notify",
+      "score": {
+        "total": 69,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 16,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 10,
+          "docs": 10
+        }
+      },
+      "version": "0.1.1",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": []
     },
     {
       "name": "dsh-web-search-free",
@@ -5040,7 +5087,27 @@
       ]
     },
     {
-      "name": "@240xu/dsh-message-ops",
+      "name": "dsh-wait-subagent",
+      "score": {
+        "total": 68,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 18,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 10,
+          "docs": 7
+        }
+      },
+      "version": "1.0.0",
+      "labels": [
+        "no-engines",
+        "auto"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "@240xu/dsh-devkit",
       "score": {
         "total": 63,
         "parts": {
@@ -5052,7 +5119,7 @@
           "docs": 10
         }
       },
-      "version": "0.11.2",
+      "version": "0.2.8",
       "labels": [
         "no-engines",
         "ui",
@@ -5061,7 +5128,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@240xu/dsh-message-ops"
+          "detail": "@240xu/dsh-devkit"
         }
       ]
     },
@@ -5114,6 +5181,58 @@
         {
           "code": "no-usage-signal",
           "detail": "@anionex/dsh-vision-toolkit"
+        }
+      ]
+    },
+    {
+      "name": "@dfy-plugins/dsh-appearance",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.1.7",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@dfy-plugins/dsh-appearance"
+        }
+      ]
+    },
+    {
+      "name": "@eddyskywalker/dsh-chatgpt-subscription",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.38.1",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@eddyskywalker/dsh-chatgpt-subscription"
         }
       ]
     },
@@ -5519,7 +5638,7 @@
           "docs": 10
         }
       },
-      "version": "0.6.3",
+      "version": "0.7.4",
       "labels": [
         "no-engines",
         "ui",
@@ -5661,7 +5780,7 @@
       ]
     },
     {
-      "name": "@momasiku/dsh-pilot",
+      "name": "@ljwei-stak/dsh-mv-cli",
       "score": {
         "total": 63,
         "parts": {
@@ -5673,15 +5792,68 @@
           "docs": 10
         }
       },
-      "version": "0.6.3",
+      "version": "0.12.2",
       "labels": [
         "no-engines",
+        "ui",
         "auto"
       ],
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@momasiku/dsh-pilot"
+          "detail": "@ljwei-stak/dsh-mv-cli"
+        }
+      ]
+    },
+    {
+      "name": "@mengyuly/dsh-ponytail",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.4.3",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@mengyuly/dsh-ponytail"
+        }
+      ]
+    },
+    {
+      "name": "@noob-stupid/dsh-connection-card-host",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.0.82",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@noob-stupid/dsh-connection-card-host"
         }
       ]
     },
@@ -5724,7 +5896,7 @@
           "docs": 10
         }
       },
-      "version": "0.23.1",
+      "version": "0.25.2",
       "labels": [
         "no-engines",
         "ui",
@@ -5816,32 +5988,6 @@
       ]
     },
     {
-      "name": "@xrn1997/dsh-novel",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.8.1",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@xrn1997/dsh-novel"
-        }
-      ]
-    },
-    {
       "name": "@ychris12138/dsh-usage-stats",
       "score": {
         "total": 63,
@@ -5880,7 +6026,7 @@
           "docs": 10
         }
       },
-      "version": "1.10.30",
+      "version": "1.10.31",
       "labels": [
         "no-engines",
         "ui",
@@ -5920,6 +6066,32 @@
       ]
     },
     {
+      "name": "@zheshiyigehenchang/dsh-chat-typography",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.1.4",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@zheshiyigehenchang/dsh-chat-typography"
+        }
+      ]
+    },
+    {
       "name": "beauticode-dsh",
       "score": {
         "total": 63,
@@ -5941,57 +6113,6 @@
         {
           "code": "no-usage-signal",
           "detail": "beauticode-dsh"
-        }
-      ]
-    },
-    {
-      "name": "better-dsh-session-deletetool",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.5.3",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "better-dsh-session-deletetool"
-        }
-      ]
-    },
-    {
-      "name": "bladebro",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "4.6.5",
-      "labels": [
-        "no-engines",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "bladebro"
         }
       ]
     },
@@ -6022,6 +6143,32 @@
       ]
     },
     {
+      "name": "dsh-550c-boot",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.5.2",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-550c-boot"
+        }
+      ]
+    },
+    {
       "name": "dsh-agent-board",
       "score": {
         "total": 63,
@@ -6044,6 +6191,58 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-agent-board"
+        }
+      ]
+    },
+    {
+      "name": "dsh-arknights-theme",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.0.3",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-arknights-theme"
+        }
+      ]
+    },
+    {
+      "name": "dsh-bili-watch",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.2.22",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-bili-watch"
         }
       ]
     },
@@ -6152,7 +6351,7 @@
       ]
     },
     {
-      "name": "dsh-compact-suite",
+      "name": "dsh-commandcode-quota",
       "score": {
         "total": 63,
         "parts": {
@@ -6164,7 +6363,7 @@
           "docs": 10
         }
       },
-      "version": "2.9.2",
+      "version": "0.2.3",
       "labels": [
         "no-engines",
         "ui",
@@ -6173,7 +6372,33 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-compact-suite"
+          "detail": "dsh-commandcode-quota"
+        }
+      ]
+    },
+    {
+      "name": "dsh-composer-predictions",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.2.0",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-composer-predictions"
         }
       ]
     },
@@ -6256,6 +6481,32 @@
       ]
     },
     {
+      "name": "dsh-database-explorer",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.9.25",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-database-explorer"
+        }
+      ]
+    },
+    {
       "name": "dsh-dpk-manager",
       "score": {
         "total": 63,
@@ -6282,6 +6533,32 @@
       ]
     },
     {
+      "name": "dsh-duck-fleet",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.4.0",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-duck-fleet"
+        }
+      ]
+    },
+    {
       "name": "dsh-essential-tools",
       "score": {
         "total": 63,
@@ -6294,7 +6571,7 @@
           "docs": 10
         }
       },
-      "version": "2.11.0",
+      "version": "2.11.1",
       "labels": [
         "no-engines",
         "ui",
@@ -6308,7 +6585,7 @@
       ]
     },
     {
-      "name": "dsh-eval-guard",
+      "name": "dsh-fs-encoding",
       "score": {
         "total": 63,
         "parts": {
@@ -6320,16 +6597,15 @@
           "docs": 10
         }
       },
-      "version": "0.7.7",
+      "version": "1.5.2",
       "labels": [
         "no-engines",
-        "ui",
         "auto"
       ],
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-eval-guard"
+          "detail": "dsh-fs-encoding"
         }
       ]
     },
@@ -6386,58 +6662,6 @@
       ]
     },
     {
-      "name": "dsh-global-system-prompt",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.3.2",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-global-system-prompt"
-        }
-      ]
-    },
-    {
-      "name": "dsh-harness-one",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.12.0",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-harness-one"
-        }
-      ]
-    },
-    {
       "name": "dsh-home-ilife",
       "score": {
         "total": 63,
@@ -6464,7 +6688,7 @@
       ]
     },
     {
-      "name": "dsh-image-plugins",
+      "name": "dsh-knowledge",
       "score": {
         "total": 63,
         "parts": {
@@ -6476,7 +6700,7 @@
           "docs": 10
         }
       },
-      "version": "0.3.5",
+      "version": "0.5.2",
       "labels": [
         "no-engines",
         "ui",
@@ -6485,59 +6709,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-image-plugins"
-        }
-      ]
-    },
-    {
-      "name": "dsh-isolation-gate",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "1.1.1",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-isolation-gate"
-        }
-      ]
-    },
-    {
-      "name": "dsh-leafy-skin",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.2.1",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-leafy-skin"
+          "detail": "dsh-knowledge"
         }
       ]
     },
@@ -6568,6 +6740,31 @@
       ]
     },
     {
+      "name": "dsh-markji-bridge",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "2.1.0",
+      "labels": [
+        "no-engines",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-markji-bridge"
+        }
+      ]
+    },
+    {
       "name": "dsh-mc-art-panel",
       "score": {
         "total": 63,
@@ -6594,7 +6791,7 @@
       ]
     },
     {
-      "name": "dsh-mcp-skill-hub",
+      "name": "dsh-mcp-skills-board",
       "score": {
         "total": 63,
         "parts": {
@@ -6606,7 +6803,7 @@
           "docs": 10
         }
       },
-      "version": "0.3.3",
+      "version": "0.3.0",
       "labels": [
         "no-engines",
         "ui",
@@ -6615,7 +6812,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-mcp-skill-hub"
+          "detail": "dsh-mcp-skills-board"
         }
       ]
     },
@@ -6672,58 +6869,6 @@
       ]
     },
     {
-      "name": "dsh-mobile-shell",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.6.18",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-mobile-shell"
-        }
-      ]
-    },
-    {
-      "name": "dsh-modeltester",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.0.7-alpha.6",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-modeltester"
-        }
-      ]
-    },
-    {
       "name": "dsh-mpkg-wallpaper",
       "score": {
         "total": 63,
@@ -6762,7 +6907,7 @@
           "docs": 10
         }
       },
-      "version": "0.1.9",
+      "version": "0.1.10",
       "labels": [
         "no-engines",
         "ui",
@@ -6828,32 +6973,6 @@
       ]
     },
     {
-      "name": "dsh-notes-plugin",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.6.3",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-notes-plugin"
-        }
-      ]
-    },
-    {
       "name": "dsh-notify-me",
       "score": {
         "total": 63,
@@ -6906,6 +7025,32 @@
       ]
     },
     {
+      "name": "dsh-pathlink",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.2.3",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-pathlink"
+        }
+      ]
+    },
+    {
       "name": "dsh-pet-live2d",
       "score": {
         "total": 63,
@@ -6954,6 +7099,31 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-plugin-cards"
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-relvato",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "3.5.1",
+      "labels": [
+        "no-engines",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-plugin-relvato"
         }
       ]
     },
@@ -7036,58 +7206,6 @@
       ]
     },
     {
-      "name": "dsh-qoder-link",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "1.1.1",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-qoder-link"
-        }
-      ]
-    },
-    {
-      "name": "dsh-quick-open",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.3.2",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-quick-open"
-        }
-      ]
-    },
-    {
       "name": "dsh-remote",
       "score": {
         "total": 63,
@@ -7110,6 +7228,32 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-remote"
+        }
+      ]
+    },
+    {
+      "name": "dsh-roam",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "1.2.0",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-roam"
         }
       ]
     },
@@ -7140,7 +7284,7 @@
       ]
     },
     {
-      "name": "dsh-session-export",
+      "name": "dsh-session-conductor",
       "score": {
         "total": 63,
         "parts": {
@@ -7152,15 +7296,16 @@
           "docs": 10
         }
       },
-      "version": "1.8.6",
+      "version": "1.3.13",
       "labels": [
         "no-engines",
+        "ui",
         "auto"
       ],
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-session-export"
+          "detail": "dsh-session-conductor"
         }
       ]
     },
@@ -7191,32 +7336,6 @@
       ]
     },
     {
-      "name": "dsh-skill-center",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.4.1",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-skill-center"
-        }
-      ]
-    },
-    {
       "name": "dsh-skill-hub",
       "score": {
         "total": 63,
@@ -7243,6 +7362,32 @@
       ]
     },
     {
+      "name": "dsh-skill-mcp-panel",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "2.3.5",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-skill-mcp-panel"
+        }
+      ]
+    },
+    {
       "name": "dsh-status-rotator",
       "score": {
         "total": 63,
@@ -7265,6 +7410,32 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-status-rotator"
+        }
+      ]
+    },
+    {
+      "name": "dsh-style-tweaks",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.1.8",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-style-tweaks"
         }
       ]
     },
@@ -7347,7 +7518,7 @@
       ]
     },
     {
-      "name": "dsh-tool-lsp",
+      "name": "dsh-tool-ast-grep",
       "score": {
         "total": 63,
         "parts": {
@@ -7367,32 +7538,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-tool-lsp"
-        }
-      ]
-    },
-    {
-      "name": "dsh-tower",
-      "score": {
-        "total": 63,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "2.4.2",
-      "labels": [
-        "no-engines",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-tower"
+          "detail": "dsh-tool-ast-grep"
         }
       ]
     },
@@ -7419,6 +7565,32 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-update-checker"
+        }
+      ]
+    },
+    {
+      "name": "dsh-voice-call",
+      "score": {
+        "total": 63,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.3.13",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-voice-call"
         }
       ]
     },
@@ -7680,27 +7852,28 @@
       ]
     },
     {
-      "name": "@rvaim/dsh-preset-manager",
+      "name": "@tecfancy/dsh-dock-terminal",
       "score": {
         "total": 61,
         "parts": {
-          "compatibility": 8,
-          "maintenance": 20,
+          "compatibility": 10,
+          "maintenance": 18,
           "safety": 16,
           "provenance": 7,
           "adoption": 0,
           "docs": 10
         }
       },
-      "version": "0.3.0",
+      "version": "0.5.3",
       "labels": [
+        "no-engines",
         "ui",
         "auto"
       ],
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@rvaim/dsh-preset-manager"
+          "detail": "@tecfancy/dsh-dock-terminal"
         }
       ]
     },
@@ -7830,83 +8003,6 @@
       ]
     },
     {
-      "name": "dsh-settings-hub",
-      "score": {
-        "total": 61,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 18,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.1.2",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-settings-hub"
-        }
-      ]
-    },
-    {
-      "name": "dsh-tidy-display",
-      "score": {
-        "total": 61,
-        "parts": {
-          "compatibility": 8,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.4.5",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-tidy-display"
-        }
-      ]
-    },
-    {
-      "name": "routinekit",
-      "score": {
-        "total": 61,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 18,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.2.0",
-      "labels": [
-        "no-engines",
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "routinekit"
-        }
-      ]
-    },
-    {
       "name": "@aident-ai/cli",
       "score": {
         "total": 60,
@@ -7932,7 +8028,7 @@
       ]
     },
     {
-      "name": "@amaster.ai/dsh-a2a",
+      "name": "@godv61/dsh-task-engine",
       "score": {
         "total": 60,
         "parts": {
@@ -7944,57 +8040,7 @@
           "docs": 7
         }
       },
-      "version": "0.1.32",
-      "labels": [
-        "no-engines",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@amaster.ai/dsh-a2a"
-        }
-      ]
-    },
-    {
-      "name": "@amaster.ai/dsh-policy",
-      "score": {
-        "total": 60,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 7
-        }
-      },
-      "version": "0.1.32",
-      "labels": [
-        "no-engines",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "@amaster.ai/dsh-policy"
-        }
-      ]
-    },
-    {
-      "name": "@norman-else/dsh-claude",
-      "score": {
-        "total": 60,
-        "parts": {
-          "compatibility": 10,
-          "maintenance": 20,
-          "safety": 16,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 7
-        }
-      },
-      "version": "0.1.67",
+      "version": "0.34.0",
       "labels": [
         "no-engines",
         "ui",
@@ -8003,7 +8049,7 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "@norman-else/dsh-claude"
+          "detail": "@godv61/dsh-task-engine"
         }
       ]
     },
@@ -8034,7 +8080,7 @@
       ]
     },
     {
-      "name": "dsh-plugin-send-image",
+      "name": "dsh-codex-auth",
       "score": {
         "total": 60,
         "parts": {
@@ -8046,7 +8092,7 @@
           "docs": 7
         }
       },
-      "version": "0.2.2",
+      "version": "0.3.4-rc.2",
       "labels": [
         "no-engines",
         "ui",
@@ -8055,7 +8101,33 @@
       "warnings": [
         {
           "code": "no-usage-signal",
-          "detail": "dsh-plugin-send-image"
+          "detail": "dsh-codex-auth"
+        }
+      ]
+    },
+    {
+      "name": "dsh-novel",
+      "score": {
+        "total": 60,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 7
+        }
+      },
+      "version": "0.1.3",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-novel"
         }
       ]
     },
@@ -8119,6 +8191,90 @@
       ]
     },
     {
+      "name": "@try-works/dsh-memory",
+      "score": {
+        "total": 59,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 3,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.1.28",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-repository",
+          "detail": "@try-works/dsh-memory"
+        },
+        {
+          "code": "no-usage-signal",
+          "detail": "@try-works/dsh-memory"
+        }
+      ]
+    },
+    {
+      "name": "@tuhengyu/dsh-full-life-memory",
+      "score": {
+        "total": 59,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 3,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.2.3",
+      "labels": [
+        "no-engines",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-repository",
+          "detail": "@tuhengyu/dsh-full-life-memory"
+        },
+        {
+          "code": "no-usage-signal",
+          "detail": "@tuhengyu/dsh-full-life-memory"
+        }
+      ]
+    },
+    {
+      "name": "cot-lint",
+      "score": {
+        "total": 59,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 16,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.2.1",
+      "labels": [
+        "no-engines",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "cot-lint"
+        }
+      ]
+    },
+    {
       "name": "deepseek-harness-dingtalk",
       "score": {
         "total": 59,
@@ -8140,6 +8296,31 @@
         {
           "code": "no-usage-signal",
           "detail": "deepseek-harness-dingtalk"
+        }
+      ]
+    },
+    {
+      "name": "deepseek-harness-lark",
+      "score": {
+        "total": 59,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 16,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.1.5",
+      "labels": [
+        "no-engines",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "deepseek-harness-lark"
         }
       ]
     },
@@ -8309,19 +8490,19 @@
       ]
     },
     {
-      "name": "dsh-legal-suite",
+      "name": "dsh-mcp-market",
       "score": {
         "total": 59,
         "parts": {
           "compatibility": 10,
-          "maintenance": 20,
+          "maintenance": 16,
           "safety": 16,
-          "provenance": 3,
+          "provenance": 7,
           "adoption": 0,
           "docs": 10
         }
       },
-      "version": "0.2.28",
+      "version": "0.1.2",
       "labels": [
         "no-engines",
         "ui",
@@ -8329,24 +8510,98 @@
       ],
       "warnings": [
         {
-          "code": "no-repository",
-          "detail": "dsh-legal-suite"
-        },
-        {
           "code": "no-usage-signal",
-          "detail": "dsh-legal-suite"
+          "detail": "dsh-mcp-market"
         }
       ]
     },
     {
-      "name": "dsh-ptc-lite",
+      "name": "dsh-plugin-session-import",
       "score": {
         "total": 59,
         "parts": {
           "compatibility": 10,
-          "maintenance": 20,
+          "maintenance": 16,
           "safety": 16,
-          "provenance": 3,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.1.1",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-plugin-session-import"
+        }
+      ]
+    },
+    {
+      "name": "dsh-theme-plugin",
+      "score": {
+        "total": 59,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 16,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.3.3",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-theme-plugin"
+        }
+      ]
+    },
+    {
+      "name": "dsh-tokenledger",
+      "score": {
+        "total": 59,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 16,
+          "safety": 16,
+          "provenance": 7,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.1.0",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-tokenledger"
+        }
+      ]
+    },
+    {
+      "name": "dsh-tool-orchestrate",
+      "score": {
+        "total": 59,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 16,
+          "safety": 16,
+          "provenance": 7,
           "adoption": 0,
           "docs": 10
         }
@@ -8358,12 +8613,8 @@
       ],
       "warnings": [
         {
-          "code": "no-repository",
-          "detail": "dsh-ptc-lite"
-        },
-        {
           "code": "no-usage-signal",
-          "detail": "dsh-ptc-lite"
+          "detail": "dsh-tool-orchestrate"
         }
       ]
     },
@@ -8448,35 +8699,6 @@
       ]
     },
     {
-      "name": "@benz-ai-x/dsh-24pa",
-      "score": {
-        "total": 57,
-        "parts": {
-          "compatibility": 8,
-          "maintenance": 20,
-          "safety": 12,
-          "provenance": 7,
-          "adoption": 0,
-          "docs": 10
-        }
-      },
-      "version": "0.2.1-rc.3.1",
-      "labels": [
-        "ui",
-        "auto"
-      ],
-      "warnings": [
-        {
-          "code": "no-license",
-          "detail": "@benz-ai-x/dsh-24pa"
-        },
-        {
-          "code": "no-usage-signal",
-          "detail": "@benz-ai-x/dsh-24pa"
-        }
-      ]
-    },
-    {
       "name": "@huanlin/dsh-plugin-better-locale",
       "score": {
         "total": 57,
@@ -8505,6 +8727,66 @@
           "detail": "@huanlin/dsh-plugin-better-locale"
         }
       ]
+    },
+    {
+      "name": "@jw-king/dsh-plugin-workspaces-extra",
+      "score": {
+        "total": 57,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 18,
+          "safety": 16,
+          "provenance": 3,
+          "adoption": 0,
+          "docs": 10
+        }
+      },
+      "version": "0.1.0",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-repository",
+          "detail": "@jw-king/dsh-plugin-workspaces-extra"
+        },
+        {
+          "code": "no-usage-signal",
+          "detail": "@jw-king/dsh-plugin-workspaces-extra"
+        }
+      ]
+    },
+    {
+      "name": "dsh-deepseek-monitor-moyuer233",
+      "score": {
+        "total": 56,
+        "parts": {
+          "compatibility": 10,
+          "maintenance": 20,
+          "safety": 16,
+          "provenance": 3,
+          "adoption": 0,
+          "docs": 7
+        }
+      },
+      "version": "0.4.0",
+      "labels": [
+        "no-engines",
+        "ui",
+        "auto"
+      ],
+      "warnings": [
+        {
+          "code": "no-repository",
+          "detail": "dsh-deepseek-monitor-moyuer233"
+        },
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-deepseek-monitor-moyuer233"
+        }
+      ]
     }
   ],
   "rejected": [
@@ -8523,13 +8805,13 @@
       "skip": "not-a-bundle"
     },
     {
-      "name": "@henri-ralmeida/prumo",
-      "skip": "not-a-bundle"
-    },
-    {
       "name": "dsh-dafeiyu",
       "skip": "tarball-unreadable",
       "detail": "body too large: 179241989 > 33554432 (https://registry.npmjs.org/dsh-dafeiyu/-/dsh-dafeiyu-0.1.18.tgz)"
+    },
+    {
+      "name": "@henri-ralmeida/prumo",
+      "skip": "not-a-bundle"
     },
     {
       "name": "dsh-plugin-catalog",
@@ -8695,35 +8977,43 @@
       "skip": "not-a-bundle"
     },
     {
-      "name": "@xrkseek/harness-cli",
+      "name": "@ycodium-ai/agent-dsh",
       "skip": "not-a-bundle"
     },
     {
-      "name": "rdsh-gateway",
+      "name": "sshlg-skills",
+      "skip": "not-a-bundle"
+    },
+    {
+      "name": "@waterwx/dsh-novel-forge",
+      "skip": "gate",
+      "failures": [
+        {
+          "code": "install-scripts",
+          "detail": "blocked install-time scripts: postinstall"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "@waterwx/dsh-novel-forge"
+        }
+      ]
+    },
+    {
+      "name": "tardis-machine",
+      "skip": "not-a-bundle"
+    },
+    {
+      "name": "tardis-dev",
+      "skip": "not-a-bundle"
+    },
+    {
+      "name": "@deepseek-insight/dsi",
       "skip": "not-a-bundle"
     },
     {
       "name": "@stacksjs/iconify-skill-icons",
-      "skip": "not-a-bundle"
-    },
-    {
-      "name": "@michengai/dsh-codex-suite-installer",
-      "skip": "not-a-bundle"
-    },
-    {
-      "name": "dsh-baton-mcp",
-      "skip": "not-a-bundle"
-    },
-    {
-      "name": "dsh-mobile-plugin-catalog",
-      "skip": "not-a-bundle"
-    },
-    {
-      "name": "@binance/agentic-wallet",
-      "skip": "not-a-bundle"
-    },
-    {
-      "name": "dsh-tool-web-enhanced-ui",
       "skip": "not-a-bundle"
     },
     {
@@ -8745,22 +9035,6 @@
     {
       "name": "02heng/dsh-workbench-plugins",
       "skip": "no-package-json"
-    },
-    {
-      "name": "060703Hyj/dsh-aqua-dsh021",
-      "skip": "gate",
-      "failures": [
-        {
-          "code": "empty-bundle-patch",
-          "detail": "cordis.patch.yml"
-        }
-      ],
-      "warnings": [
-        {
-          "code": "no-usage-signal",
-          "detail": "dsh-aqua-dsh021"
-        }
-      ]
     },
     {
       "name": "0avatar0/dsh-ai-book-shelf",
@@ -8827,6 +9101,22 @@
         {
           "code": "no-usage-signal",
           "detail": "dsh-first-prompt-bar"
+        }
+      ]
+    },
+    {
+      "name": "1015677515/dsh-theme-holo",
+      "skip": "gate",
+      "failures": [
+        {
+          "code": "empty-bundle-patch",
+          "detail": "cordis.patch.yml"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "no-usage-signal",
+          "detail": "dsh-theme-holo"
         }
       ]
     },
@@ -9155,6 +9445,6 @@
   "selection": {
     "byDownloads": 280,
     "byRecency": 120,
-    "candidates": 376
+    "candidates": 386
   }
 }
