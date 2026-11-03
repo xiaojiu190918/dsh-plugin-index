@@ -1,6 +1,6 @@
 {
   "schema": "dsh-plugin-index/manifest@1",
-  "generatedAt": "2026-11-02T20:49:13.343Z",
+  "generatedAt": "2026-11-03T02:58:17.588Z",
   "dshBaseline": "0.2.1",
   "tool": {
     "name": "dsh-plugin-index",
@@ -8,9 +8,9 @@
   },
   "documents": {
     "index.json": {
-      "sha256": "41d6adfe58d132b1d2857af18e7a0ea8b8fd3a0afc08a246a76c19de9c5526a8",
-      "bytes": 1263469,
-      "plugins": 289
+      "sha256": "0913936ce460e97964477f0e66ad1d29352e3067fa58be0e54eda7cf853d5feb",
+      "bytes": 1335130,
+      "plugins": 315
     },
     "reviewed/index.json": {
       "sha256": "1a646ad7ea51571e1a053902070d6a8f2ef2eb07d348235eaae376d6ef01573a",
@@ -18,9 +18,9 @@
       "plugins": 0
     },
     "staging/index.json": {
-      "sha256": "8d7fe1ded280def181cc3a7237eb71d01c01ef1c3636f7cdb6cd89d654e1948d",
-      "bytes": 151257,
-      "plugins": 34
+      "sha256": "edd2243e749360150c627299df5e4b9c1a4656f332fc2b5c88b3ea2cc9fa2e17",
+      "bytes": 173334,
+      "plugins": 39
     }
   },
   "changed": [
@@ -28,29 +28,33 @@
     "staging/index.json"
   ],
   "stats": {
-    "candidates": 348,
-    "accepted": 289,
+    "candidates": 393,
+    "accepted": 315,
     "reviewed": 0,
-    "staging": 34,
-    "rejected": 84,
+    "staging": 39,
+    "rejected": 103,
     "topRejections": [
       [
         "not-a-bundle",
-        48
+        65
       ],
       [
         "gate",
-        28
+        29
       ],
       [
         "tarball-unreadable",
         8
+      ],
+      [
+        "no-package-json",
+        1
       ]
     ]
   },
   "sources": {
     "npmRegistry": "https://registry.npmjs.org",
     "githubToken": true,
-    "corpusGeneratedAt": "2026-11-02T20:45:39.963Z"
+    "corpusGeneratedAt": "2026-11-03T02:54:33.416Z"
   }
 }
